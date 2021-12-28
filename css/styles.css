@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* fuente */
+h2{
+    /* font-family: 'Rock 3D', cursive; */
+    font-family: 'Shrikhand', cursive;
+    font-size: 50px;
+    color: #0b2245;
+    text-shadow: -10px 8px rgb(255, 252, 239);
+}
+
+h5{
+    font-family: 'Spline Sans', sans-serif;
+    font-weight: 600;
+}
+
+h4{
+    font-family: 'Spline Sans', sans-serif;
+    font-weight: 500;
+    color: #0b2245;
+    padding:5px
+}
+
+h4:hover{
+    color: #ffff;
+    background-color: #0a23495d;
+    border-radius: 45px;
+}
+
+html p{
+    font-family: 'Spline Sans', sans-serif;
+    font-weight:400 ;
+}
+
+body{
+    /* background-image: linear-gradient(to bottom, #0b2245, #2f3a68, #55538b, #7d6daf, #a988d3);
+    background-image: linear-gradient(to bottom, #0b2245, #5a3a60, #9a586c, #c98372, #e2b981); */
+    background-image: linear-gradient(to bottom, #0b2245, #223861, #39507e, #4f699c, #6683bc, #738dc9, #8097d7, #8da1e4, #939be1, #9a95dd, #a28fd9, #a988d3);
+}
+
+/* transparencia del header */
+.transparencia{
+    background-color: rgba(31, 57, 104, 0.712);
+}
+
+/* Div de fondo para descripción del carousel */
+.div--fondo{
+    background-color: rgba(22, 22, 22, 0.459);
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Separador entre divs */
+.container-fluid{
+    margin-top: 100px;
+}
+
+/* card de info de la banda */
+.card{
+    padding-top: 15px;
+    border-radius: 15px;
+    
+}
+
+iframe{
+    border-radius: 15px;
+}
+
+/* Members: tamaño de la imagan */
+.member{
+    width: 170px;
+    height: auto;
+}
+
+.integrante, .trayectoria{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* fondo blanco con transparencia */
+.div--slide{
+    background-color: rgba(255, 255, 255, 0.452);
+    height: auto;
+    width:90%;
+    border-radius: 15px;
+    padding: 5px;   
+}
+
+
+/* trayectoria */
+.trayectoria{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
