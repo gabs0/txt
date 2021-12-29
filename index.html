@@ -25,6 +25,9 @@
     <!-- css propio -->
     <link rel="stylesheet" href="css/styles.css">
 
+     <!-- libreria de animación -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -167,7 +170,7 @@
     </div>
 
     <!-- contenedor con card de info y parte de stream  -->
-    <div class="container-fluid div--slide">
+    <div class="container-fluid div--slide" data-aos="fade-up"data-aos-duration="2000">
         <div class="row">
             <!-- card de info -->
             <div class="card col-md-3 offset-1">
@@ -187,7 +190,7 @@
     </div>
         
     <!-- contenedor para ubicar imagenes de los integrantes -->
-    <div class="container-fluid text-center div--slide">
+    <div class="container-fluid text-center div--slide" data-aos="fade-up"data-aos-duration="2000">
         <h2>Integrantes</h2>
 
         <div class="row integrante">
@@ -235,7 +238,7 @@
     </div>
 
     <!-- contenedor con  trayectoria segun años-->
-    <div class="container-fluid text-center div--slide ">
+    <div class="container-fluid text-center div--slide " data-aos="fade-up"data-aos-duration="2000">
         <h2>Trayectoria</h2>
         <div class="row trayectoria">
 
@@ -278,7 +281,7 @@
 
             <!-- 2021 -->
             <div class="card col-md-3">
-                <h5 class="card-title">2021</h5>
+                <h5 class="card-header">2021</h5>
 
                 <div class="card-body">
                     <ul class="list-group list-group-flush">
@@ -300,7 +303,17 @@
         </div>
     </div>
 
-    
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; Big Hit Music/Hybe </small>
+        </div>
+    </footer>
 
+
+    <!-- inicializacion -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(); 
+    </script>
 </body>
 </html>
