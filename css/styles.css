@@ -61,9 +61,12 @@ body{
 
 /* card de info de la banda */
 .card{
-    padding-top: 15px;
     border-radius: 15px;
-    
+    padding: 15px;
+}
+
+.card-img{
+    border-radius: 10px;
 }
 
 iframe{
@@ -81,7 +84,6 @@ iframe{
     display: flex;
     justify-content: center;
 }
-
 
 
 /* fondo blanco con transparencia */
@@ -105,3 +107,90 @@ iframe{
     color:#0b2245 ;
 }
 
+/* sección:integrantes */
+.member-pc{
+    /* padding: 10px; */
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.card-member{
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+.card-tam{
+    width: 30vw;
+}
+
+.div-carousel{
+    display: flex;
+}
+
+
+/* discografía */
+.media-body{
+    background-color: rgba(255, 255, 255, 0.438) ;
+}
+
+.titulo-header{
+    color: #ffff;
+}
+
+.album{
+    width: 12vw;
+    /* align-self: center; */
+}
+
+.media img{
+    margin-right: 25px;
+}
+
+.media{
+    margin: 30px;
+}
+
+.album:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: .3s ease-in-out;
+    box-shadow:0 8px 20px 0px #0c1726c5;
+}
+
+/* conecta */
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    width: 45vw;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+.redes img{
+    width:5vw;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+.redes{
+    margin: 15px;
+    padding:5px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.616);
+}
+
+.redes:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: .3s ease-in-out;
+    box-shadow:0 8px 20px 0px #0c1726c5;
+}
+
+p{
+    color: #0b2245;
+}

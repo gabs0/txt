@@ -11,8 +11,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- titulos -->
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@600&display=swap" rel="stylesheet">
+
+    <!-- textos -->
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@375&display=swap" rel="stylesheet">
+
     <!-- css propio -->
     <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- libreria de animación -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,13 +59,125 @@
         </div>
     </nav>
 
+    <div id="demo" class="carousel slide">
+        <ul>
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+        </ul>
+        <div class="carousel-inner div-carousel">
+            <!-- soobin -->
+            <div class="card mb-3 card-member carousel-item active" style="width: 840px;" >
+                <div class="row no-gutters">
+                    <!-- card de info -->
+                    <div class="col-md-4">
+                        <img class="card-img member-pc" src="../assets/img/soobin2.jpg" alt="TXT Soobin">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Soobin <br> 수빈</h5>
+                            <p class="card-text card-tam">Su nombre es Choi Soo Bin, siendo Soobin su nombre artístico. Tiene la posición de líder, siendo a su vez vocalista, rapero y bailarín. Nació el 5 de diciembre del 2000 y es de Ansan, Corea del Sur.</p>
+                            <p class="card-text card-tam">Emoji representativo: conejo</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
 
+            <!-- yeonjun -->
+            <div class="card mb-3 card-member carousel-item" style="width: 840px;">
+                <div class="row no-gutters">
+                    <!-- card de info -->
+                    <div class="col-md-4">
+                        <img class="card-img member-pc" src="../assets/img/yeonjun.jpg" alt="TXT Yeonjun">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Yeonjun <br> 연준</h5>
+                            <p class="card-text card-tam">Su nombre es Choi Yeon Jun, siendo Yeonjun su nombre artístico. Se desempeña como rapero, vocalista y bailarín. Nació el 13 de septiembre de 1999 y es de Seoul, Corea del Sur.</p>
+                            <p class="card-text card-tam">Emoji representativo: zorro</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <!-- beomgyu -->
+            <div class="card mb-3 card-member carousel-item" style="width: 840px;">
+                <div class="row no-gutters">
+                    <!-- card de info -->
+                    <div class="col-md-4">
+                        <img class="card-img member-pc" src="../assets/img/beomgyu.jpg" alt="TXT Beomgyu">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Beomgyu <br> 범규</h5>
+                            <p class="card-text card-tam">Su nombre es Choi Beom Gyu, siendo Beomgyu su nombre artístico. Se desempeña como rapero, vocalista, bailarín y visual. Nació el 13 de marzo de 2001 y es de Daegu, Corea del Sur.</p>
+                            <p class="card-text card-tam">Emoji representativo: oso</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <!-- taehyun -->
+            <div class="card mb-3 card-member carousel-item" style="width: 840px;">
+                <div class="row no-gutters">
+                    <!-- card de info -->
+                    <div class="col-md-4">
+                        <img class="card-img member-pc" src="../assets/img/taehyun.jpg" alt="TXT Taehyun">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Taehyun <br> 태현</h5>
+                            <p class="card-text card-tam">Su nombre es Kang Tae Hyun, siendo Taehyun su nombre artístico. Se desempeña como rapero, vocalista y bailarín. Nació el 5 de febrero de 2002 y es de Seoul, Corea del Sur.</p>
+                            <p class="card-text card-tam">Emoji representativo: ardilla</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <!-- hueningkai -->
+            <div class="card mb-3 card-member carousel-item" style="width: 840px;">
+                <div class="row no-gutters">
+                    <!-- card de info -->
+                    <div class="col-md-4">
+                        <img class="card-img member-pc" src="../assets/img/hueningkai.jpg" alt="TXT Hueningkai">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Hueningkai <br> 휴닝카이</h5>
+                            <p class="card-text card-tam">Su nombre es Kai Kamal Huening, siendo Hueningkai su nombre artístico. Se desempeña como rapero, vocalista, bailarín, visual, siendo el maknae. Nació el 14 de agosto de 2002 y es de Hawaii, USA.</p>
+                            <p class="card-text card-tam">Emoji representativo: pingüina</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+
+            <!-- botones -->
+            <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+        
 
     <footer id="sticky-footer" class="flex-shrink-0 py-4 text-white-50">
         <div class="container text-center">
           <small>Copyright &copy; Big Hit Music/Hybe </small>
         </div>
     </footer>
-    
+
+
+    <!-- inicializacion -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(); 
+    </script>
 </body>
 </html>
